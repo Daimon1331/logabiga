@@ -1,0 +1,23 @@
+.clients {
+  background: #ededed; }
+  .clients .margin {
+    width: 1400px;
+    margin: 0 auto; }
+  .clients li, .clients a, .clients .breadcrumb, .clients .breadcrumb-item.active {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: black; }
+  .clients .breadcrumb-item + .breadcrumb-item::before {
+    content: url("../images/crumbs.svg"); }
+  .clients .cases {
+    padding-bottom: 96px;
+    grid-template-rows: 338px 338px;
+    grid-template-columns: 338px 338px 338px 338px;
+    grid-gap: 16px; }
+    .clients .cases .gridcase {
+      width: 100%;
+      height: 100%;
+      background-color: white; }
+
+/*# sourceMappingURL=clients.css.map */

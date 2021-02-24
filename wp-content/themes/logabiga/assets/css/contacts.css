@@ -1,0 +1,19 @@
+.contacts {
+  background-color: #ededed;
+  padding: 140px 0 96px; }
+  .contacts .logo-footer {
+    margin-bottom: 44px; }
+  .contacts .tel-mail {
+    margin-bottom: 32px; }
+  .contacts a, .contacts p {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: black;
+    text-align: center; }
+  .contacts p {
+    margin-bottom: 64px; }
+  .contacts .icons {
+    width: 233px; }
+
+/*# sourceMappingURL=contacts.css.map */
