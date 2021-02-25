@@ -1,6 +1,9 @@
 .contacts {
   background-color: #ededed;
   padding: 140px 0 96px; }
+  @media screen and (max-width: 720px) {
+    .contacts {
+      padding-top: 52px; } }
   .contacts .logo-footer {
     margin-bottom: 44px; }
   .contacts .tel-mail {
@@ -11,6 +14,10 @@
     line-height: 33px;
     color: black;
     text-align: center; }
+    @media screen and (max-width: 720px) {
+      .contacts a, .contacts p {
+        font-size: 20px;
+        line-height: 23px; } }
   .contacts p {
     margin-bottom: 64px; }
   .contacts .icons {

@@ -5,6 +5,7 @@ Template Name: Contacts
 ?>
 <?php get_header(); ?>
     <section class="d-flex align-items-center justify-content-center contacts">
+        <div class="margin">
         <div class="d-flex flex-column align-items-center">
             <a href="index" class="logo-footer"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logoblack.svg"></a>
             <div class="d-flex flex-column align-items-center tel-mail">
@@ -20,6 +21,6 @@ Template Name: Contacts
                 <a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/images/youtubeblack.svg"></a>
             </div>
         </div>
-
+        </div>
     </section>
 <?php get_footer(); ?>

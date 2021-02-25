@@ -1,7 +1,7 @@
 <footer>
     <div class="margin">
-        <div class="d-flex flex-column top-footer">
-            <div class="d-flex align-items-center">
+        <div class="d-flex flex-column">
+        <div class="d-flex align-items-center top-footer">
                 <a href="index" class="logo-footer"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logofooter.png"></a>
                 <div class="d-flex justify-content-between minnav">
                     <a href="#">Агенство</a>
@@ -11,7 +11,6 @@
                     <a href="#">Награды</a>
                     <a href="#">Контакт</a>
                 </div>
-            </div>
         </div>
             <div class="d-flex justify-content-between contact-footer">
                 <div class="d-flex flex-column">
@@ -52,7 +51,7 @@
                 </div>
             </div>
         </div>
-
+        </div>
     </div>
 </footer>
 

@@ -3,18 +3,37 @@ footer {
   padding: 32px 0 60px; }
   footer .top-footer {
     padding-bottom: 60px; }
+    @media screen and (max-width: 800px) {
+      footer .top-footer {
+        flex-direction: column; } }
   footer .logo-footer {
     margin-right: 119px; }
+    @media screen and (max-width: 800px) {
+      footer .logo-footer {
+        margin: 0 0 50px 0; } }
   footer .minnav {
     width: 573px; }
+    @media screen and (max-width: 800px) {
+      footer .minnav {
+        flex-wrap: wrap;
+        width: 100%; } }
     footer .minnav a {
       color: white;
       font-family: "MullerBold", sans-serif;
       font-size: 14px;
       line-height: 14px; }
+      @media screen and (max-width: 800px) {
+        footer .minnav a {
+          margin: 0 20px 20px 0; } }
   footer .contact-footer {
     padding-bottom: 44px;
     border-bottom: 1px solid #585858; }
+    @media screen and (max-width: 800px) {
+      footer .contact-footer {
+        justify-content: left !important;
+        flex-wrap: wrap; }
+        footer .contact-footer div {
+          margin: 0 20px 20px 0; } }
     footer .contact-footer h5 {
       color: white;
       font-family: "MullerBold", sans-serif;

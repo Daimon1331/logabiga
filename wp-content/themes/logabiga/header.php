@@ -27,10 +27,10 @@
 <header>
     <div class="margin">
         <div class="d-flex justify-content-between align-items-center nav">
-            <a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.svg"></a>
+            <a href="<?php echo get_option('home'); ?>/"><img class="logo-top" src="<?php echo get_template_directory_uri() ?>/assets/images/logo.svg"></a>
             <nav class="d-flex justify-content-between minnav">
             <a href="#">Агенство</a>
-            <a href="<?php echo get_option('home'); ?>/section/">Креатив</a>
+            <a href="<?php echo get_option('home'); ?>/creative/">Креатив</a>
             <a href="#">Брендинг</a>
             <a href="<?php echo get_option('home'); ?>/clients/">Клиенты</a>
             <a href="#">Награды</a>
@@ -40,7 +40,21 @@
                 <a href="#">РУС</a>
                 <a href="#">ENG</a>
             </div>
+            <img class="menu-button" src="<?php echo get_template_directory_uri() ?>/assets/images/burgermenu.png">
+            <img class="menu-cross" src="<?php echo get_template_directory_uri() ?>/assets/images/cross.png">
         </div>
+
     </div>
 </header>
-
+<div class="mob-nav">
+    <div class="margin">
+    <nav class="d-flex justify-content-between minnav">
+        <a href="#">Агенство</a>
+        <a href="<?php echo get_option('home'); ?>/creative/">Креатив</a>
+        <a href="#">Брендинг</a>
+        <a href="<?php echo get_option('home'); ?>/clients/">Клиенты</a>
+        <a href="#">Награды</a>
+        <a href="<?php echo get_option('home'); ?>/contacts/">Контакты</a>
+    </nav>
+    </div>
+</div>

@@ -1,10 +1,10 @@
-.errormain {
+.thanks-main {
   background: #ededed;
   padding: 120px 0; }
   @media screen and (max-width: 720px) {
-    .errormain {
+    .thanks-main {
       padding-top: 58px; } }
-  .errormain .stroke {
+  .thanks-main .stroke {
     font-family: "MullerBold", sans-serif;
     font-size: 200px;
     line-height: 200px;
@@ -12,10 +12,10 @@
     -webkit-text-stroke: 4px black;
     padding-bottom: 36px; }
     @media screen and (max-width: 720px) {
-      .errormain .stroke {
+      .thanks-main .stroke {
         font-size: 100px;
         line-height: 100px; } }
-  .errormain p {
+  .thanks-main p {
     font-family: "MullerBold", sans-serif;
     font-size: 28px;
     line-height: 28px;
@@ -23,10 +23,10 @@
     padding-bottom: 40px;
     text-align: center; }
     @media screen and (max-width: 720px) {
-      .errormain p {
+      .thanks-main p {
         font-size: 16px;
         line-height: 16px; } }
-  .errormain a {
+  .thanks-main a {
     border: 2px solid black;
     font-family: "MullerBold", sans-serif;
     font-size: 16px;
@@ -35,4 +35,4 @@
     padding: 16px 43px;
     border-radius: 4px; }
 
-/*# sourceMappingURL=404.css.map */
+/*# sourceMappingURL=thanks.css.map */

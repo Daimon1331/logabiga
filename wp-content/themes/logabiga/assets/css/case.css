@@ -1,0 +1,97 @@
+.case {
+  background: #ededed; }
+  .case .margin {
+    width: 1164px;
+    margin: 0 auto; }
+  .case li, .case a, .case .breadcrumb, .case .breadcrumb-item.active {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: black; }
+  .case .breadcrumb-item + .breadcrumb-item::before {
+    content: url("../images/crumbs.svg"); }
+  .case .slide-video, .case .slide-banner {
+    margin-bottom: 42px; }
+  .case .info-video, .case .info-print {
+    align-self: flex-end;
+    margin-right: 160px; }
+    .case .info-video h6, .case .info-print h6 {
+      font-family: "MullerBold", sans-serif;
+      font-size: 16px;
+      line-height: 16px;
+      color: #5D818C;
+      margin-bottom: 10px; }
+    .case .info-video p, .case .info-print p {
+      font-family: "MullerRegular", sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      color: black; }
+  .case .info-video p:nth-child(2), .case .info-print p:nth-child(2) {
+    margin-bottom: 10px; }
+  .case .slider1 {
+    margin-bottom: 48px; }
+  .case .text-box-slider1 {
+    margin-bottom: 80px; }
+  .case .text-box-slider1 p:nth-child(1) {
+    max-width: 473px;
+    font-family: "MullerBold", sans-serif;
+    font-size: 32px;
+    line-height: 32px; }
+  .case .text-box-slider1 p:nth-child(2) {
+    max-width: 456px;
+    font-family: "MullerRegular", sans-serif;
+    font-size: 16px;
+    line-height: 19px; }
+  .case .slick-prev-case {
+    border: none;
+    width: 29px;
+    height: 50px;
+    background: transparent;
+    background-image: url("../images/arrowleft.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 34px;
+    left: 72px;
+    z-index: 1;
+    background-size: cover; }
+  .case .slick-next-case {
+    border: none;
+    width: 29px;
+    height: 50px;
+    background: transparent;
+    background-image: url("../images/arrowright.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 34px;
+    right: 72px;
+    z-index: 1;
+    background-size: cover; }
+  .case .slider2 {
+    margin-bottom: 65px; }
+  .case .text-box-slider3 p:nth-child(1) {
+    max-width: 473px;
+    font-family: "MullerBold", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 28px; }
+  .case .text-box-slider3 p:nth-child(2) {
+    max-width: 456px;
+    font-family: "MullerRegular", sans-serif;
+    font-size: 16px;
+    line-height: 19px; }
+  .case .slider3 {
+    max-width: 456px;
+    margin-bottom: 96px; }
+    .case .slider3 .info-print {
+      margin-right: 0;
+      align-self: flex-start; }
+    .case .slider3 .slick-prev-case {
+      left: -636px; }
+
+/*# sourceMappingURL=case.css.map */

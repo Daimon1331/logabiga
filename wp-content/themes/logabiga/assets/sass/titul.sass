@@ -7,9 +7,17 @@ img, svg
   vertical-align: middle
   max-width: 100%
 
+.hidden
+  overflow: hidden
 .margin
   width: 1164px
   margin: 0 auto
+  @media screen and (max-width: 1200px)
+    width: 100%
+    padding: 0 20px
+  @media screen and (max-width: 720px)
+    width: 100%
+    padding: 0 20px
 
 a
   color: black
@@ -34,29 +42,66 @@ h4
   font-family: 'MullerBold', sans-serif
   font-size: 14px
   line-height: 14px
-  img
+  .logo-top
     width: 60px
     height: 60px
     flex: 0 0 31px
+  .menu-button
+    width: 36px
+    height: 36px
+    display: none
+    @media screen and (max-width: 980px)
+      display: block
+  .menu-cross
+    width: 36px
+    height: 36px
+    display: none
   .minnav
     width: 789px
+    @media screen and (max-width: 1100px)
+      width: 600px
+    @media screen and (max-width: 980px)
+      display: none!important
+  .language
+    @media screen and (max-width: 980px)
+      display: none!important
   .language a:nth-child(1)
     margin-right: 15px
   .activenav
     font-size: 18px
     line-height: 18px
     color: #5d818c
+.mob-nav
+  display: none
+  width: 100%
+  height: calc(100vh - 80px)
+  position: fixed
+  background: #ededed
+  padding: 48px 0 0
+  font-family: 'MullerBold', sans-serif
+  font-size: 28px
+  line-height: 28px
+  z-index: 999
+  .minnav
+    flex-direction: column
+  a
+      margin-bottom: 32px
 
 
 .bigslider
   position: relative
 .slidertitul
   width: 100%
+  @media screen and (max-width: 1100px)
+    display: flex
+    flex-direction: column
   .slidetitul
     height: calc(100vh - 80px)
     position: relative
     background-color: #117da2
     background-blend-mode: multiply
+    @media screen and (max-width: 1100px)
+      height: auto
     img
       width: 100%
       height: 100%
@@ -65,6 +110,10 @@ h4
       top: 50%
       transform: translateY(-50%)
       right: 0
+      @media screen and (max-width: 720px)
+        width: 320px
+      @media screen and (max-width: 500px)
+        width: 250px
       p
         font-family: 'MullerBold', sans-serif
         font-size: 20px
@@ -74,6 +123,14 @@ h4
         margin: 0
         top: 209px
         left: 86px
+        @media screen and (max-width: 720px)
+          top: 135px
+          left: 60px
+          font-size: 14px
+          line-height: 14px
+        @media screen and (max-width: 500px)
+          top: 109px
+          left: 43px
   //.slidetitul:hover
   //  .slideimg
   //    opacity: .6
