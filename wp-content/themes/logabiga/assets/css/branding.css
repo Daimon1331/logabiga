@@ -1,41 +1,41 @@
-.creative {
+.branding {
   background: #ededed;
   padding-top: 220px; }
-  .creative .margin {
+  .branding .margin {
     width: 1400px;
     margin: 0 auto; }
     @media screen and (max-width: 1440px) {
-      .creative .margin {
+      .branding .margin {
         width: 100%;
         padding: 0 16px; } }
     @media screen and (max-width: 980px) {
-      .creative .margin {
+      .branding .margin {
         padding: 0 20px; } }
-  .creative li, .creative a, .creative .breadcrumb, .creative .breadcrumb-item.active {
+  .branding li, .branding a, .branding .breadcrumb, .branding .breadcrumb-item.active {
     font-family: "MullerRegular", sans-serif;
     font-size: 14px;
     line-height: 16px;
     color: black; }
-  .creative .breadcrumb-item + .breadcrumb-item::before {
+  .branding .breadcrumb-item + .breadcrumb-item::before {
     content: url("../images/crumbs.svg"); }
-  .creative .cases {
+  .branding .cases {
     padding-bottom: 96px;
     grid-template-rows: 338px 338px;
     grid-template-columns: 338px 338px 338px 338px;
     grid-gap: 16px; }
     @media screen and (max-width: 1440px) {
-      .creative .cases {
+      .branding .cases {
         grid-template-rows: auto auto; } }
     @media screen and (max-width: 980px) {
-      .creative .cases {
+      .branding .cases {
         grid-template-columns: calc((100vw - 50px)/2) calc((100vw - 50px)/2);
         grid-template-rows: auto auto auto auto;
         grid-gap: 10px; } }
-    .creative .cases .gridcase {
+    .branding .cases .gridcase {
       width: 100%;
       height: 100%;
       position: relative; }
-      .creative .cases .gridcase h3 {
+      .branding .cases .gridcase h3 {
         position: absolute;
         top: 36px;
         left: 50%;
@@ -43,60 +43,60 @@
         width: max-content;
         text-align: center; }
         @media screen and (max-width: 1400px) {
-          .creative .cases .gridcase h3 {
+          .branding .cases .gridcase h3 {
             font-size: 30px;
             line-height: 30px; } }
         @media screen and (max-width: 980px) {
-          .creative .cases .gridcase h3 {
+          .branding .cases .gridcase h3 {
             z-index: 2;
             font-size: 30px;
             line-height: 30px; } }
         @media screen and (max-width: 500px) {
-          .creative .cases .gridcase h3 {
+          .branding .cases .gridcase h3 {
             font-size: 20px;
             line-height: 20px;
             top: 12px; } }
-      .creative .cases .gridcase h4 {
+      .branding .cases .gridcase h4 {
         position: absolute;
         bottom: 36px;
         left: 50%;
         transform: translateX(-50%);
         text-transform: uppercase; }
         @media screen and (max-width: 1400px) {
-          .creative .cases .gridcase h4 {
+          .branding .cases .gridcase h4 {
             font-size: 25px;
             line-height: 25px; } }
         @media screen and (max-width: 980px) {
-          .creative .cases .gridcase h4 {
+          .branding .cases .gridcase h4 {
             z-index: 2; } }
         @media screen and (max-width: 500px) {
-          .creative .cases .gridcase h4 {
+          .branding .cases .gridcase h4 {
             font-size: 16px;
             line-height: 16px;
             bottom: 12px; } }
-      .creative .cases .gridcase img {
+      .branding .cases .gridcase img {
         position: relative;
         width: 100%; }
         @media screen and (max-width: 980px) {
-          .creative .cases .gridcase img {
+          .branding .cases .gridcase img {
             filter: brightness(0.5); } }
-    .creative .cases .hover-case:hover .gridcase {
+    .branding .cases .hover-case:hover .gridcase {
       clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 65%, 85% 50%, 100% 35%, 100% 0); }
       @media screen and (max-width: 980px) {
-        .creative .cases .hover-case:hover .gridcase {
+        .branding .cases .hover-case:hover .gridcase {
           clip-path: none; } }
-      .creative .cases .hover-case:hover .gridcase img {
+      .branding .cases .hover-case:hover .gridcase img {
         display: none; }
         @media screen and (max-width: 980px) {
-          .creative .cases .hover-case:hover .gridcase img {
+          .branding .cases .hover-case:hover .gridcase img {
             display: inline; } }
-  .creative #case1 {
+  .branding #case1 {
     background-color: #3068A9; }
-  .creative #case2 {
+  .branding #case2 {
     background-color: #B12A2E; }
-  .creative #case3 {
+  .branding #case3 {
     background-color: #337547; }
-  .creative #case4 {
+  .branding #case4 {
     background-color: #9C3040; }
 
 .filters {
@@ -139,4 +139,4 @@
     .filter-padding {
       padding-bottom: 0; } }
 
-/*# sourceMappingURL=creative.css.map */
+/*# sourceMappingURL=branding.css.map */

@@ -1,10 +1,12 @@
 .clients
   background: #ededed
+  padding-top: 220px
   .margin
-    width: 100%
-    padding: 0 16px
-    //width: 1400px
-    //margin: 0 auto
+    width: 1400px
+    margin: 0 auto
+    @media screen and (max-width: 1440px)
+      width: 100%
+      padding: 0 16px
     @media screen and (max-width: 980px)
       padding: 0 20px
   li, a, .breadcrumb, .breadcrumb-item.active
@@ -16,8 +18,8 @@
     content: url("../images/crumbs.svg")
   .cases
     padding-bottom: 96px
-    //grid-template-rows: 338px 338px
-    //grid-template-columns: 338px 338px 338px 338px
+    grid-template-rows: 338px 338px
+    grid-template-columns: 338px 338px 338px 338px
     grid-gap: 16px
     @media screen and (max-width: 980px)
       grid-template-columns: calc((100vw - 50px)/2) calc((100vw - 50px)/2)

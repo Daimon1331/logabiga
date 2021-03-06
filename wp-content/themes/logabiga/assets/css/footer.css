@@ -31,9 +31,12 @@ footer {
     @media screen and (max-width: 800px) {
       footer .contact-footer {
         justify-content: left !important;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+        padding-bottom: 20px; }
         footer .contact-footer div {
-          margin: 0 20px 20px 0; } }
+          margin: 0 20px 20px 0; }
+        footer .contact-footer div:nth-child(4) {
+          margin: 0; } }
     footer .contact-footer h5 {
       color: white;
       font-family: "MullerBold", sans-serif;
@@ -49,45 +52,55 @@ footer {
       margin-right: 16px; }
     footer .contact-footer .icons a:nth-child(3) {
       margin-right: 0; }
-  footer .info-foter {
+  footer .info-footer {
     padding-top: 36px; }
-    footer .info-foter a {
+    @media screen and (max-width: 410px) {
+      footer .info-footer {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        text-align: center;
+        padding-top: 20px; } }
+    footer .info-footer a {
       color: white; }
-    footer .info-foter .lang-footer p {
+    @media screen and (max-width: 410px) {
+      footer .info-footer .lang-footer {
+        justify-content: center;
+        margin-bottom: 40px; } }
+    footer .info-footer .lang-footer p {
       font-family: "MullerBold", sans-serif;
       font-size: 14px;
       line-height: 14px;
       color: white;
       margin-right: 4px; }
-    footer .info-foter .lang-footer .btn-secondary {
+    footer .info-footer .lang-footer .btn-secondary {
       background: transparent;
       border: none;
       padding: 0;
       font-family: "MullerBold", sans-serif;
       font-size: 14px;
       line-height: 14px; }
-    footer .info-foter .lang-footer .btn-secondary:focus, footer .info-foter .lang-footer .btn-secondary:active {
+    footer .info-footer .lang-footer .btn-secondary:focus, footer .info-footer .lang-footer .btn-secondary:active {
       outline: none;
       box-shadow: none; }
-    footer .info-foter .lang-footer .dropdown-toggle::after {
+    footer .info-footer .lang-footer .dropdown-toggle::after {
       content: url("../images/langarrow.svg");
       border: none;
       margin-left: 2px;
       height: 18px; }
-    footer .info-foter .lang-footer .dropdown-toggle::before {
+    footer .info-footer .lang-footer .dropdown-toggle::before {
       content: url("../images/langruss.svg");
       border: none;
       margin-right: 8px;
       height: 18px; }
-    footer .info-foter .lang-footer .dropdown ul {
+    footer .info-footer .lang-footer .dropdown ul {
       width: min-content;
       min-width: auto; }
-      footer .info-foter .lang-footer .dropdown ul li a {
+      footer .info-footer .lang-footer .dropdown ul li a {
         font-family: "MullerBold", sans-serif;
         font-size: 14px;
         line-height: 14px;
         color: black; }
-      footer .info-foter .lang-footer .dropdown ul li:hover {
+      footer .info-footer .lang-footer .dropdown ul li:hover {
         color: black; }
 
 /*# sourceMappingURL=footer.css.map */

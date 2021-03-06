@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Creative
+Template Name: Life
 */
 ?>
 <?php get_header(); ?>
@@ -8,12 +8,12 @@ Template Name: Creative
     <section class="creative">
 
         <div class="margin">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb d-flex">
-                <li class="breadcrumb-item"><a href="<?php echo get_option('home'); ?>/">Главная</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Креатив</li>
-            </ol>
-        </nav>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb d-flex">
+                    <li class="breadcrumb-item"><a href="<?php echo get_option('home'); ?>/">Главная</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Креатив</li>
+                </ol>
+            </nav>
             <div class="d-grid cases">
                 <div class="hover-case">
                     <a href="<?php echo get_option('home'); ?>/creative/case/"><div class="gridcase" id="case1">

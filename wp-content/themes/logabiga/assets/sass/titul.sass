@@ -7,6 +7,7 @@ img, svg
   vertical-align: middle
   max-width: 100%
 
+
 .hidden
   overflow: hidden
 .margin
@@ -15,14 +16,25 @@ img, svg
   @media screen and (max-width: 1200px)
     width: 100%
     padding: 0 20px
-  @media screen and (max-width: 720px)
-    width: 100%
-    padding: 0 20px
+
+//.breadcrumb-item
+//  @media screen and (max-width: 550px)
+//    padding-left: 0!important
+//
+//.breadcrumb-item:before
+//  @media screen and (max-width: 550px)
+//    padding-right: 0!important
 
 a
   color: black
   text-decoration: none
 a:hover
+  color: black
+
+h2
+  font-family: 'MullerRegular', sans-serif
+  font-size: 32px
+  line-height: 37px
   color: black
 
 h3
@@ -36,6 +48,24 @@ h4
   font-size: 32px
   line-height: 32px
   color: white
+
+h5
+  font-family: 'MullerBold', sans-serif
+  font-size: 16px
+  line-height: 16px
+  color: black
+
+h6
+  font-family: 'MullerRegular', sans-serif
+  font-size: 16px
+  line-height: 19px
+  color: black
+
+header
+  position: fixed
+  width: 100%
+  background: white
+  z-index: 1000
 
 .nav
   padding: 10px 0
@@ -62,9 +92,13 @@ h4
       width: 600px
     @media screen and (max-width: 980px)
       display: none!important
+    a:hover
+      transform: scale(1.2)
   .language
     @media screen and (max-width: 980px)
       display: none!important
+    a:hover
+      transform: scale(1.2)
   .language a:nth-child(1)
     margin-right: 15px
   .activenav
@@ -74,22 +108,25 @@ h4
 .mob-nav
   display: none
   width: 100%
-  height: calc(100vh - 80px)
+  height: 100vh
   position: fixed
   background: #ededed
-  padding: 48px 0 0
+  padding: 128px 0 0
   font-family: 'MullerBold', sans-serif
   font-size: 28px
   line-height: 28px
   z-index: 999
   .minnav
     flex-direction: column
+    align-items: center
   a
-      margin-bottom: 32px
+    margin-bottom: 32px
+    width: min-content
 
 
 .bigslider
   position: relative
+  padding-top: 80px
 .slidertitul
   width: 100%
   @media screen and (max-width: 1100px)
@@ -131,14 +168,6 @@ h4
         @media screen and (max-width: 500px)
           top: 109px
           left: 43px
-  //.slidetitul:hover
-  //  .slideimg
-  //    opacity: .6
-  //    filter: grayscale(100%)
-    .vector
-      img
-        opacity: 1
-        filter: none
   .slick-prev, .slick-prevq
     border: none
     width: 25px
@@ -172,32 +201,7 @@ h4
     z-index: 1
 
 
-.statichover
-  position: absolute
-  width: 100%
-  height: 100%
-  top: 0
-  //z-index: 2
-  //.slick-prev, .slick-prevq
-  //  border: none
-  //  width: 25px
-  //  height: 43px
-  //  background: transparent
-  //  background-image: url("../images/arrowprev.png")
-  //  background-repeat: no-repeat
-  //  background-position: center
-  //  cursor: pointer
-  //  outline: none
-  //  position: absolute
-  //  top: 50%
-  //  transform: translate(200%, -50%)
-  //  z-index: 1
-  //  background-size: cover
-  .half1, .half2
-    width: 50%
-  .half1:hover, .half2:hover
-    opacity: .5
-    background-color: #117da2
+
 
 
 

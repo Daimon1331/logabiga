@@ -27,13 +27,13 @@
 <header>
     <div class="margin">
         <div class="d-flex justify-content-between align-items-center nav">
-            <a href="<?php echo get_option('home'); ?>/"><img class="logo-top" src="<?php echo get_template_directory_uri() ?>/assets/images/logo.svg"></a>
+            <a href="<?php echo get_option('home'); ?>/"><img alt="logabiga" class="logo-top" src="<?php echo get_template_directory_uri() ?>/assets/images/logo.svg"></a>
             <nav class="d-flex justify-content-between minnav">
-            <a href="#">Агенство</a>
+            <a href="<?php echo get_option('home'); ?>/agency/">Агентство</a>
             <a href="<?php echo get_option('home'); ?>/creative/">Креатив</a>
-            <a href="#">Брендинг</a>
+            <a href="<?php echo get_option('home'); ?>/branding/">Брендинг</a>
             <a href="<?php echo get_option('home'); ?>/clients/">Клиенты</a>
-            <a href="#">Награды</a>
+            <a href="<?php echo get_option('home'); ?>/life/">Жизнь</a>
             <a href="<?php echo get_option('home'); ?>/contacts/">Контакты</a>
             </nav>
             <div class="d-flex language">
@@ -49,11 +49,11 @@
 <div class="mob-nav">
     <div class="margin">
     <nav class="d-flex justify-content-between minnav">
-        <a href="#">Агенство</a>
+        <a href="<?php echo get_option('home'); ?>/agency/">Агенство</a>
         <a href="<?php echo get_option('home'); ?>/creative/">Креатив</a>
         <a href="#">Брендинг</a>
         <a href="<?php echo get_option('home'); ?>/clients/">Клиенты</a>
-        <a href="#">Награды</a>
+        <a href="#">Жизнь</a>
         <a href="<?php echo get_option('home'); ?>/contacts/">Контакты</a>
     </nav>
     </div>

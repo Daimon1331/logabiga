@@ -1,0 +1,43 @@
+.worker
+  background: #ededed
+  padding: 120px 0 96px
+  .margin
+    width: 1164px
+    margin: 0 auto
+    @media screen and (max-width: 1200px)
+      width: 100%
+  .crumbs
+    padding-bottom: 90px
+    @media screen and (max-width: 750px)
+      padding-bottom: 32px
+  li, a, .breadcrumb, .breadcrumb-item.active
+    font-family: 'MullerRegular', sans-serif
+    font-size: 14px
+    line-height: 16px
+    color: black
+  .breadcrumb-item+.breadcrumb-item::before
+    content: url("../images/crumbs.svg")
+  .worker-case
+    @media screen and (max-width: 750px)
+      flex-direction: column
+  .description-worker
+    @media screen and (max-width: 1000px)
+      margin-right: 50px
+    @media screen and (max-width: 750px)
+      margin-right: 0
+      margin-bottom: 24px
+    h4
+      white-space: pre-wrap
+      color: black
+      margin-bottom: 16px
+      @media screen and (max-width: 750px)
+        white-space: normal
+    h5:nth-child(2)
+      margin-bottom: 8px
+    h5:nth-child(3)
+      margin-bottom: 28px
+    h6
+      max-width: 500px
+      white-space: pre-wrap
+      @media screen and (max-width: 750px)
+        max-width: none
