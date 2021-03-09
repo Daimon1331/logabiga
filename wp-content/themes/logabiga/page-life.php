@@ -4,14 +4,14 @@ Template Name: Life
 */
 ?>
 <?php get_header(); ?>
-<?php get_template_part( 'filters' );  ?>
+<?php get_template_part( 'filters-year' );  ?>
     <section class="creative">
 
         <div class="margin">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb d-flex">
                     <li class="breadcrumb-item"><a href="<?php echo get_option('home'); ?>/">Главная</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Креатив</li>
+                    <li class="breadcrumb-item active" aria-current="page">Жизнь</li>
                 </ol>
             </nav>
             <div class="d-grid cases">
