@@ -101,7 +101,8 @@
           .agency .cases .gridcase img {
             filter: brightness(0.5); } }
     .agency .cases .hover-case:hover .gridcase {
-      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 65%, 85% 50%, 100% 35%, 100% 0); }
+      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 65%, 85% 50%, 100% 35%, 100% 0);
+      background: #5D818C; }
       @media screen and (max-width: 980px) {
         .agency .cases .hover-case:hover .gridcase {
           clip-path: none; } }
@@ -110,13 +111,5 @@
         @media screen and (max-width: 980px) {
           .agency .cases .hover-case:hover .gridcase img {
             display: inline; } }
-  .agency #case1 {
-    background-color: #5D818C; }
-  .agency #case2 {
-    background-color: #B12A2E; }
-  .agency #case3 {
-    background-color: #337547; }
-  .agency #case4 {
-    background-color: #9C3040; }
 
 /*# sourceMappingURL=agency.css.map */

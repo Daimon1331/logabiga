@@ -81,7 +81,8 @@
           .branding .cases .gridcase img {
             filter: brightness(0.5); } }
     .branding .cases .hover-case:hover .gridcase {
-      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 65%, 85% 50%, 100% 35%, 100% 0); }
+      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 65%, 85% 50%, 100% 35%, 100% 0);
+      background: #5D818C; }
       @media screen and (max-width: 980px) {
         .branding .cases .hover-case:hover .gridcase {
           clip-path: none; } }
@@ -90,53 +91,5 @@
         @media screen and (max-width: 980px) {
           .branding .cases .hover-case:hover .gridcase img {
             display: inline; } }
-  .branding #case1 {
-    background-color: #3068A9; }
-  .branding #case2 {
-    background-color: #B12A2E; }
-  .branding #case3 {
-    background-color: #337547; }
-  .branding #case4 {
-    background-color: #9C3040; }
-
-.filters {
-  position: fixed;
-  z-index: 998;
-  background: #ededed;
-  width: 100%;
-  padding: 140px 0 42px; }
-
-.filter p:nth-child(1) {
-  margin-right: 72px; }
-
-.filter::-webkit-scrollbar {
-  width: 0; }
-
-.filter {
-  width: 970px;
-  margin: 0 auto; }
-  @media screen and (max-width: 1010px) {
-    .filter {
-      width: 100%;
-      padding-left: 20px;
-      overflow-x: scroll; } }
-  .filter p {
-    margin: 0;
-    font-family: "MullerRegular", sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    color: black;
-    width: max-content; }
-  .filter .d-flex p {
-    margin: 0 30px 0 0; }
-  .filter .d-flex p:nth-child(9) {
-    margin-right: 0; }
-
-.filter-padding {
-  padding-top: 100px;
-  padding-bottom: 20px; }
-  @media screen and (max-width: 1010px) {
-    .filter-padding {
-      padding-bottom: 0; } }
 
 /*# sourceMappingURL=branding.css.map */

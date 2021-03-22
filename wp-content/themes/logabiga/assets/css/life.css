@@ -1,3 +1,76 @@
-
+.life {
+  background: #ededed;
+  padding-top: 220px; }
+  .life .margin {
+    width: 1400px;
+    margin: 0 auto; }
+    @media screen and (max-width: 1440px) {
+      .life .margin {
+        width: 100%;
+        padding: 0 16px; } }
+    @media screen and (max-width: 980px) {
+      .life .margin {
+        padding: 0 20px; } }
+  .life li, .life a, .life .breadcrumb, .life .breadcrumb-item.active {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: black; }
+  .life .breadcrumb-item + .breadcrumb-item::before {
+    content: url("../images/crumbs.svg"); }
+  .life .cases {
+    padding-bottom: 96px;
+    grid-template-rows: 338px 338px;
+    grid-template-columns: 338px 338px 338px 338px;
+    grid-gap: 16px; }
+    @media screen and (max-width: 1440px) {
+      .life .cases {
+        grid-template-rows: auto auto; } }
+    @media screen and (max-width: 980px) {
+      .life .cases {
+        grid-template-columns: calc((100vw - 50px)/2) calc((100vw - 50px)/2);
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 10px; } }
+    .life .cases .gridcase {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .life .cases .gridcase h3 {
+        position: absolute;
+        top: 36px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        text-align: center;
+        white-space: pre-wrap;
+        font-size: 20px;
+        line-height: 20px; }
+        @media screen and (max-width: 980px) {
+          .life .cases .gridcase h3 {
+            z-index: 2;
+            font-size: 30px;
+            line-height: 30px; } }
+        @media screen and (max-width: 500px) {
+          .life .cases .gridcase h3 {
+            font-size: 20px;
+            line-height: 20px;
+            top: 12px; } }
+      .life .cases .gridcase img {
+        position: relative;
+        width: 100%; }
+        @media screen and (max-width: 980px) {
+          .life .cases .gridcase img {
+            filter: brightness(0.5); } }
+    .life .cases .hover-case:hover .gridcase {
+      clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 65%, 85% 50%, 100% 35%, 100% 0);
+      background: #5D818C; }
+      @media screen and (max-width: 980px) {
+        .life .cases .hover-case:hover .gridcase {
+          clip-path: none; } }
+      .life .cases .hover-case:hover .gridcase img {
+        display: none; }
+        @media screen and (max-width: 980px) {
+          .life .cases .hover-case:hover .gridcase img {
+            display: inline; } }
 
 /*# sourceMappingURL=life.css.map */

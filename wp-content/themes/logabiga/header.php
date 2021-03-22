@@ -53,7 +53,7 @@
         <a href="<?php echo get_option('home'); ?>/creative/">Креатив</a>
         <a href="#">Брендинг</a>
         <a href="<?php echo get_option('home'); ?>/clients/">Клиенты</a>
-        <a href="#">Жизнь</a>
+        <a href="<?php echo get_option('home'); ?>/life/">Жизнь</a>
         <a href="<?php echo get_option('home'); ?>/contacts/">Контакты</a>
     </nav>
     </div>
