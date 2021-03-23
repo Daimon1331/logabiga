@@ -9,13 +9,13 @@ Template Name: Clients
         <div class="margin">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb d-flex">
-                    <li class="breadcrumb-item"><a href="index">Главная</a></li>
+                    <li class="breadcrumb-item"><a href="<?php echo get_option('home'); ?>/">Главная</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Клиенты</li>
                 </ol>
             </nav>
             <div class="d-grid cases">
                 <div class="hover-case">
-                    <a href="#"><div class="d-flex align-items-center justify-content-center gridcase" id="case1">
+                    <a href="<?php echo get_option('home'); ?>/clients-filters/"><div class="d-flex align-items-center justify-content-center gridcase" id="case1">
                             <img alt="ONLINER" src="<?php echo get_template_directory_uri() ?>/assets/images/onlinerclient.png"></div></a>
                 </div>
                 <div class="hover-case">
